@@ -1,0 +1,12 @@
+.card-wrapper {
+  width: 245px;
+
+  .card-img-wrapper {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(102, 39, 255, 1);
+    object-fit: cover;
+    height: 270px;
+  }
+
+}

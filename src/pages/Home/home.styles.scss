@@ -1,0 +1,45 @@
+.home-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-page-cards {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  grid-column-gap: 56px;
+  grid-row-gap: 53px;
+}
+
+.info-wrp {
+  margin-bottom: 57px;
+  font-size: 22px;
+
+  .info-search {
+    text-decoration: underline;
+  }
+
+  .number-wrp {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: rgba(102, 39, 255, 1);
+    border-radius: 5px;
+    margin-left: 27px;
+    color: white;
+    padding: 5px 15px;
+
+  }
+
+
+}
+
+.wrp-center{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
